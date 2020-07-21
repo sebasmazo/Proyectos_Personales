@@ -1,0 +1,119 @@
+[
+{
+    "descripcion_json": "Datos basicos",
+    "id": "HBWsK1Z-vMx8qo4Avr1T-5b2bFySMMc6xKTmyo70S03K5A",
+    "accountId": "WX0ts7jsUWGOILYnvoLPbtvX3Iw4uK7sNT6h3gJN45k",
+    "puuid": "kweSBuNTEVX3QEG087C9NFBOZnEWVGW706UMUJdETGAlLYdKFUR7Bi-1xZlHqe6-s_zFDhSncbIMtQ",
+    "name": "DunkleLanterne",
+    "profileIconId": 3496,
+    "revisionDate": 1595266712000,
+    "summonerLevel": 100
+},
+{
+    "descripcion_json": "Datos avanzados",
+    "leagueId": "4ec7e667-2bc7-4d2b-a588-9d4b657feefb",
+    "queueType": "RANKED_SOLO_5x5",
+    "tier": "GOLD",
+    "rank": "III",
+    "summonerId": "HBWsK1Z-vMx8qo4Avr1T-5b2bFySMMc6xKTmyo70S03K5A",
+    "summonerName": "DunkleLanterne",
+    "leaguePoints": 61,
+    "wins": 99,
+    "losses": 81,
+    "veteran": false,
+    "inactive": false,
+    "freshBlood": false,
+    "hotStreak": false
+},
+{
+    "descripcion_json": "Status server",
+    "name": "Latin America North",
+    "slug": "lan",
+    "locales": [
+        "es_MX"
+    ],
+    "hostname": "prod.la1.lol.riotgames.com",
+    "region_tag": "la1",
+    "services": [
+        {
+            "name": "Game",
+            "slug": "game",
+            "status": "online",
+            "incidents": [
+                {
+                    "id": 14382,
+                    "active": true,
+                    "created_at": "2020-01-22T02:27:05.206Z",
+                    "updates": [
+                        {
+                            "id": "5e27b2f98d03914439333f45",
+                            "author": "",
+                            "heading": "10.02",
+                            "content": "El 23/01/20, a partir de las 02:30 de Ciudad de México / 03:30 de Bogotá, se desactivarán las colas clasificatorias en preparación para la actualización 10.02. A las 04:00 de Ciudad de México / 05:00 de Bogotá, se apagarán los servidores y todas las partidas en curso terminarán en empate y no se guardarán datos de las mismas. Estimamos que los campos de batalla no estarán disponibles por 3 horas.",
+                            "severity": "info",
+                            "created_at": "2020-01-22T02:27:05.206Z",
+                            "updated_at": "2020-01-22T02:27:05.206Z",
+                            "translations": []
+                        }
+                    ]
+                },
+                {
+                    "id": 14439,
+                    "active": true,
+                    "created_at": "2020-02-04T02:21:37.383Z",
+                    "updates": [
+                        {
+                            "id": "5e38d53100b0546cc519ccfa",
+                            "author": "",
+                            "heading": "10.03",
+                            "content": "El 05/02/20, a partir de las 02:30 de Ciudad de México / 03:30 de Bogotá, se desactivarán las colas clasificatorias en preparación para la actualización 10.03. A las 04:00 de Ciudad de México / 05:00 de Bogotá, se apagarán los servidores y todas las partidas en curso terminarán en empate y no se guardarán datos de las mismas. Estimamos que los campos de batalla no estarán disponibles por 3 horas.",
+                            "severity": "info",
+                            "created_at": "2020-02-04T02:21:37.383Z",
+                            "updated_at": "2020-02-04T02:21:37.383Z",
+                            "translations": []
+                        }
+                    ]
+                },
+                {
+                    "id": 14498,
+                    "active": true,
+                    "created_at": "2020-02-18T23:38:54.109Z",
+                    "updates": [
+                        {
+                            "id": "5e4c758eb8b469ab1c88d3c1",
+                            "author": "",
+                            "heading": "10.04",
+                            "content": "El 20/02/20, a partir de las 02:30 de Ciudad de México / 03:30 de Bogotá, se desactivarán las colas clasificatorias en preparación para la actualización 10.04. A las 04:00 de Ciudad de México / 05:00 de Bogotá, se apagarán los servidores y todas las partidas en curso terminarán en empate y no se guardarán datos de las mismas. Estimamos que los campos de batalla no estarán disponibles por 3 horas.",
+                            "severity": "info",
+                            "created_at": "2020-02-18T23:38:54.109Z",
+                            "updated_at": "2020-02-18T23:38:54.109Z",
+                            "translations": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Store",
+            "slug": "store",
+            "status": "online",
+            "incidents": []
+        },
+        {
+            "name": "Website",
+            "slug": "website",
+            "status": "online",
+            "incidents": []
+        },
+        {
+            "name": "Client",
+            "slug": "client",
+            "status": "online",
+            "incidents": []
+        }
+    ]
+}
+
+
+
+]
