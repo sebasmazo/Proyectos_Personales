@@ -1,8 +1,7 @@
 import requests
 import json
 apikey_import_= {
-    'api_key': 'RGAPI-1d4d4070-264d-41f5-8a39-16a057126588'
-}
+    'api_key': '<your-api-key>'
 
 def verificar_status(game_region):
     status_respuesta = requests.get("https://{}.api.riotgames.com/lol/status/v3/shard-data".format(game_region),params=apikey_import_)
