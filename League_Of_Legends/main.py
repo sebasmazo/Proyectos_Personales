@@ -5,7 +5,7 @@ import Data_Servers, status_server
 try:  
     print('¡SALUDOS INVOCADOR!')
     apikey = {
-        'api_key': '<your-api-key>'
+        'api_key': 'RGAPI-1d4d4070-264d-41f5-8a39-16a057126588'
         }
     
     def info_avanzada(id_summoner, servidor_lol):
