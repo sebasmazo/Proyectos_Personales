@@ -3,7 +3,7 @@ import numpy.random as rnd
 import requests
 
 TOKEN = ''
-PARAMS = {'api_key': 'g6oYHeAoWn8uqW8EGRMSi9VpbSTwQOcy'}
+PARAMS = {'api_key': ''}
 client = discord.Client()
     #GIPHY
 commands = " $amame: Te dice te amo \n $algo: Dice un dato curioso bro \n $hello: Te saluda equisde \n $gif: Busca un gif aleatorio "
