@@ -2,7 +2,7 @@ import discord
 import numpy.random as rnd
 import requests
 
-TOKEN = 'NzQxMzExMjA2NTAwODU5OTI0.Xy1t3A.eAkG_jc6WihxyJEYXiUZ0jesZ0I'
+TOKEN = ''
 PARAMS = {'api_key': 'g6oYHeAoWn8uqW8EGRMSi9VpbSTwQOcy'}
 client = discord.Client()
     #GIPHY
