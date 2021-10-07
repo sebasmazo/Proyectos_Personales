@@ -1,37 +1,3 @@
-# Proyectos_Personales
- Proyectos realizados con intención de prácticar y ganar conocimiento en los lenguajes desarrollados
- 
- Proyecto #1 League Of Legends
- {
- 
-   Pequeño proyecto usando la API de Riot Games para consultar estadisticas de jugador y consultar noticias hechas por rioters, aplicación desarrollada para un entorno en consola
-
-   Desarrollador: Sebastián Mazo Vélez 
-   Lenguajes Utilizados: Python 
-   Librerias Importadas: JSON, Requests
-   Tiempo Desarrollo: 6 Horas 
-   Apropiación de lenguaje por parte del desarrollador: Mediano
-   Open Source, se aceptan sugerencias y se puede utilizar libremente
-   
-   Documentación:
-   	funciones {
-		info_basica()	//Función principal, se encarga de tomar el input del usuario y repartir este input por las distintas funciones, hace la primera conexión a la api para 						tomar datos basicos del invocador como nombre, level, id, icon id, etc. Al terminar dirige a info_avanzada mandando el id y el servidor como parametro
-		info_avanzada(id_summoner,servidor_lol)	//Función encargada de recopilar datos más complejos de la api, Wins, losses, elo, winrate y hotstreak. Al terminar, dirige a la 												   función de menu con el servidor como parametro.
-		menu(game_region)	//Esta función es simplemente un menu hecho con if y elif, el usuario podrá elegir entre consultar otro usuario, salir del programa o consultar 								  actualizaciones hechas por los rioters (Noticias del juego)
-		Consultar_Update(game_region)	//Esta función se encarga de mostrar al usuario por medio de un query a la api las ultimas actualizaciones hechas por rioters (Noticias)
-	}
-	funciones externas importadas desde otros documentos.py {
-		Documentos importados: Data_Servers.py, status_server.py
-		Data_Servers {
-			En este documento se encuentra la lista de servers habilitados para consultar en forma de DICT y una función para imprimir las keys, recurrimos a esta función cuando 			  le mostramos al usuario los servers disponibles para elegir
-		}
-		status_server {
-			En este documento hay dos funciones (verificar_status && Mensajes_RIOT), verificar status revisa si el server de league of legends está online y Mensajes_RIOT se 	             encarga de sacar los ultimos mensajes, actualizaciones, noticias hechas por los rioters recurrimos a esta función en el main cuando hacemos Consultar_Update()
-		}
-	
-	
-}
-
 ENGLISH ----#---- Documentation
 # Personal_Projects
  Projects carried out with the intention of practicing and gaining knowledge in the languages developed
@@ -66,6 +32,42 @@ ENGLISH ----#---- Documentation
 	
 	
 }
+
+# Proyectos_Personales
+ Proyectos realizados con intención de prácticar y ganar conocimiento en los lenguajes desarrollados
+ 
+ Proyecto #1 League Of Legends
+ {
+ 
+   Pequeño proyecto usando la API de Riot Games para consultar estadisticas de jugador y consultar noticias hechas por rioters, aplicación desarrollada para un entorno en consola
+
+   Desarrollador: Sebastián Mazo Vélez 
+   Lenguajes Utilizados: Python 
+   Librerias Importadas: JSON, Requests
+   Tiempo Desarrollo: 6 Horas 
+   Apropiación de lenguaje por parte del desarrollador: Mediano
+   Open Source, se aceptan sugerencias y se puede utilizar libremente
+   
+   Documentación:
+   	funciones {
+		info_basica()	//Función principal, se encarga de tomar el input del usuario y repartir este input por las distintas funciones, hace la primera conexión a la api para 						tomar datos basicos del invocador como nombre, level, id, icon id, etc. Al terminar dirige a info_avanzada mandando el id y el servidor como parametro
+		info_avanzada(id_summoner,servidor_lol)	//Función encargada de recopilar datos más complejos de la api, Wins, losses, elo, winrate y hotstreak. Al terminar, dirige a la 												   función de menu con el servidor como parametro.
+		menu(game_region)	//Esta función es simplemente un menu hecho con if y elif, el usuario podrá elegir entre consultar otro usuario, salir del programa o consultar 								  actualizaciones hechas por los rioters (Noticias del juego)
+		Consultar_Update(game_region)	//Esta función se encarga de mostrar al usuario por medio de un query a la api las ultimas actualizaciones hechas por rioters (Noticias)
+	}
+	funciones externas importadas desde otros documentos.py {
+		Documentos importados: Data_Servers.py, status_server.py
+		Data_Servers {
+			En este documento se encuentra la lista de servers habilitados para consultar en forma de DICT y una función para imprimir las keys, recurrimos a esta función cuando 			  le mostramos al usuario los servers disponibles para elegir
+		}
+		status_server {
+			En este documento hay dos funciones (verificar_status && Mensajes_RIOT), verificar status revisa si el server de league of legends está online y Mensajes_RIOT se 	             encarga de sacar los ultimos mensajes, actualizaciones, noticias hechas por los rioters recurrimos a esta función en el main cuando hacemos Consultar_Update()
+		}
+	
+	
+}
+
+
 
 
 			
