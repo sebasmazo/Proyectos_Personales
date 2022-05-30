@@ -6,4 +6,3 @@ This folder will have short code files for trying things with Deep learning, in 
 
 !These aren't supported projects, the intention of these files is to practice in my free time!
 
-celsiusAfarenheit.py was made based on @RingaTech YouTube video (https://www.youtube.com/watch?v=iX_on3VxZzk)
